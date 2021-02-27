@@ -1,0 +1,2 @@
+# jupyter 작업경로 변경
+jupyter notebook --notebook-dir=/Users/tedz/Workspace/Jupyter
