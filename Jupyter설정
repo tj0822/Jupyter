@@ -1,2 +1,13 @@
 # jupyter 작업경로 변경
 jupyter notebook --notebook-dir=/Users/tedz/Workspace/Jupyter
+
+
+
+# python 노트북 버전 추가
+
+conda create -n py37 python=3.7.10 anaconda
+conda activate py37  
+(py37) tedz@gimtaejin-ui-Macmini ~ % source activate py37
+(py37) tedz@gimtaejin-ui-Macmini ~ % python -m ipykernel install --user --name PY37
+
+python -m ipykernel install --user --name PY37
