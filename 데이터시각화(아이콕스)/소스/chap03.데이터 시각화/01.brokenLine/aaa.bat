@@ -1,0 +1,1 @@
+jupyter nbconvert --to  script  applyBasic_exam.ipynb
